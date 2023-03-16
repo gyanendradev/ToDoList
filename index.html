@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="outer">
+        <form class="form">
+            <h1>Your To-Do List 💪</h1>
+            <div class="controls">
+                <input type="text" class="upcoming" placeholder="What do you have planned ?">
+                <button class="add ultra_colour">Add Task</button>
+            </div>
+        </form>
+        <div class="lower">
+            <h2>Upcoming Tasks :-</h2>
+            <div class="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="added" value="Its your added Task" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit ultra_colour">EDIT</button>
+                        <button class="del">DELETE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/To_do_list.js"></script>
+</body>
+
+</html>
