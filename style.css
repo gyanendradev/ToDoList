@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    height: 100%;
+    background: #45486ecc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.outer {
+    margin: 10px auto;
+    max-width: 700px;
+}
+
+.upcoming,
+.added {
+    border-radius: 10px;
+    border: unset;
+    width: 70%;
+    background: #00000060;
+    font-size: large;
+    padding: 10px 12px;
+    color: white;
+}
+
+.upcoming {
+    margin-right: 20px;
+}
+
+.ultra_colour {
+    border: unset;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #c944c6, #820991);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.del {
+    background: transparent;
+    border: unset;
+    color: crimson;
+    font-weight: 800;
+    padding: 10px;
+}
+.error::placeholder{
+    color: rgb(255, 111, 111);
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.added {
+    background: transparent;
+}
+.added:hover{
+    cursor: default;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.7;
+}
+.task {
+    background: #00000090;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+.editing{
+    color: deepskyblue;
+}
+.content {
+    flex: auto;
+}
